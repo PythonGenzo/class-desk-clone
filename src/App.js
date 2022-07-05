@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import PersistentDrawerLeft from './menubar';
-
+import Button from '@mui/material/Button';
 
 function App() {
 
@@ -25,7 +25,7 @@ function UserLogin() {
     <div className="login-container">
        <div className="class-name"> 
        <div className="class-name1">
-          <p>class</p>
+          <p>Class</p>
           <p>Student</p>
        </div>
       </div>
@@ -34,7 +34,8 @@ function UserLogin() {
       <input type="email"/>
       <label>Password</label>
       <input type="Password" />
-      <button className="login-button">Login</button>
+      <Button style={{maxWidth: '30px', maxHeight: '100%', minWidth: '100%', minHeight: '30px'}}
+      variant="contained">Login</Button>
       <p>Forgot Password</p>
       </div>
      <div className="image">
