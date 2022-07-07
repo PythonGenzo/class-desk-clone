@@ -55,3 +55,14 @@ p {
 .img {
   height: 100%;
 }
+
+.class {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.toolbarButtons {
+    margin-left: auto;
+  }
